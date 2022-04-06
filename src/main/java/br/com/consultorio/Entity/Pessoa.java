@@ -8,7 +8,6 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.MappedSuperclass;
 
-
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
