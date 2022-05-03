@@ -32,8 +32,13 @@ public class Agenda extends AbstractEntily{
 
     @Getter
     @Setter
-    @Column(name = "dataAgendamento", nullable = false)
-    private LocalDateTime dataAgendamento;
+    @Column(name = "dataDe", nullable = false)
+    private LocalDateTime dataDe;
+
+    @Getter
+    @Setter
+    @Column(name = "dataAte", nullable = false)
+    private LocalDateTime dataAte;
 
     @Getter
     @Setter

@@ -11,6 +11,7 @@ import javax.persistence.Table;
 @ToString
 @Entity
 @Table(schema = "public", name = "especialidades")
+
 public class Especialidade extends AbstractEntily {
 
     @Getter
