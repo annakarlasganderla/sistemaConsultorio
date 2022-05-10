@@ -30,7 +30,7 @@ public class PacienteService {
     public Optional<Paciente> findById(Long id) {
         return this.pacienteRepository.findById(id);
     }
-    
+
     public void update(Long id, Paciente paciente) {
         if(id == paciente.getId()) {
             this.validarFormulario(paciente);
