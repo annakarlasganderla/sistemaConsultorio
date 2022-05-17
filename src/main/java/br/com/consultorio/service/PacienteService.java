@@ -1,10 +1,8 @@
 package br.com.consultorio.service;
 
-import br.com.consultorio.Entity.Especialidade;
 import br.com.consultorio.Entity.Paciente;
 import br.com.consultorio.Entity.TipoAtendimento;
 import br.com.consultorio.repository.PacienteRepository;
-import org.apache.tomcat.jni.Local;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
