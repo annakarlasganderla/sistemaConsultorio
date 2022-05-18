@@ -18,7 +18,7 @@ public class EspecialidadeService {
     private EspecialidadeRepository especialidadeRepository;
 
     @Transactional
-    public void insert(Long id, Especialidade especialidade) {
+    public void insert(Especialidade especialidade) {
         this.especialidadeRepository.save(especialidade);
     }
 
