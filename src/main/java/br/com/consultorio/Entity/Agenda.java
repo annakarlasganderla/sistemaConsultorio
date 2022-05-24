@@ -27,8 +27,8 @@ public class Agenda extends AbstractEntily{
     @Getter
     @Setter
     @Enumerated(EnumType.STRING)
-    @Column(name = "statusAgenda", nullable = false)
-    private StatusAgenda statusAgenda;
+    @Column(name = "status", nullable = false)
+    private StatusAgenda status;
 
     @Getter
     @Setter
@@ -44,5 +44,10 @@ public class Agenda extends AbstractEntily{
     @Setter
     @Column(name = "encaixe", nullable = false)
     private Boolean encaixe;
+
+    @Getter
+    @Setter
+    @Column(name = "observacao", nullable = false)
+    private String observacao;
 
 }
